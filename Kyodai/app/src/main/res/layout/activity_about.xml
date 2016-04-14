@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/aboutback"
+    android:background="@drawable/aboutback"
+    tools:context="com.example.pc.kyodai.AboutActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text"
+        android:text="@string/text"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text2"
+        android:text="@string/text2"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+    <ImageButton
+        android:layout_width="122dp"
+        android:layout_height="102dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center"
+        android:src="@id/home"
+        android:background="@drawable/home"
+        android:contentDescription="@string/homebtn" />
+
+</FrameLayout>

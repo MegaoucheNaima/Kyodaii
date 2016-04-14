@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kyodai</string>
+    <string name="about_name">aboutback</string>
+    <string name="btnplay">play</string>
+    <string name="btnscore">score</string>
+    <string name="btnabout">about</string>
+    <string name="text">\n \n \nKYODAI GAME \n BY\n MEGAOUCHE NAIMA</string>
+    <string name="text2">\n naimamega.nm@gmail.com</string>
+    <string name="home">home</string>
+    <string name="homebtn">home</string>
+</resources>
